@@ -1,7 +1,10 @@
+import { Wrapper } from "./components/Wrapper";
+import { Footer } from "./components/Footer";
 function App() {
   return (
     <>
-      <p>hello</p>
+      <Wrapper />
+      <Footer />
     </>
   );
 }
